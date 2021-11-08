@@ -1,0 +1,17 @@
+.basliq{
+    background-color: dimgrey;
+    color: white;
+    height: 60px;
+}
+.logo{
+    margin-top: 12px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1px solid gray;
+}
+.right{
+    
+    margin-left: 850px;
+    border: 1px solid gray;
+    display: inline-block;
+}
