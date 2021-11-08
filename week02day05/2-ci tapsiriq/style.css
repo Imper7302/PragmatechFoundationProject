@@ -1,17 +1,52 @@
 .basliq{
     background-color: dimgrey;
     color: white;
-    height: 60px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif
+    
 }
 .logo{
-    margin-top: 12px;
-    margin-left: 30px;
     display: inline-block;
-    border: 1px solid gray;
+    margin-top: 22px;
+    margin-left: 60px;
+    
+  
 }
 .right{
-    
-    margin-left: 850px;
-    border: 1px solid gray;
     display: inline-block;
+    margin-left: 480px;
+    margin-top: 10px;  
+    height: 30px;   
+}
+.servis{
+    margin-left: 85px;
+}
+.info{
+    margin-left: 85px;
+}
+.faq{
+    margin-left: 85px;
+}
+.contact{
+    margin-left: 85px;
+}
+.page{
+    height: 329px;
+    padding-top: 200px;
+    background-image: url(./eskiz/backgraound.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif
+}
+.mauris{
+    font-size: 32px;
+}
+.eleifend{
+    font-size: 20px;
+}
+.lorem{
+    font-size: 16px;
 }
