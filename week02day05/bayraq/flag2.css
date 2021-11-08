@@ -8,3 +8,44 @@
     margin-top: 100px;
 
 }
+.aypara{ 
+    height: 90px;
+    width: 120px;
+    margin-left: 240px;
+    margin-top: 5px;
+    background-color: #ef3340;
+    position: absolute;
+}
+.aypara1{
+    border: 1px solid white;
+    height: 90px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+}
+.aypara2{
+    border: 0px solid;
+    height: 90px;
+    width: 110px;
+    background-color:#ef3340;
+    border-radius: 50%;
+    margin-top: -92px;
+    margin-left: 28px;
+}
+.ulduz{
+    border: 0px solid;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin-top: -68px;
+    margin-left: 60px;
+}
+.ulduz1{
+    border: 0px solid;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin-top: -50px;
+    margin-left: 60px;
+    transform: rotate(45deg);
+}
