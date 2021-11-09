@@ -50,3 +50,14 @@
 .lorem{
     font-size: 16px;
 }
+.second_title{
+    margin-top: 120px;
+    margin-left: 370px;
+    text-align: center;
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+image{
+    border: 2px solid black
+}
