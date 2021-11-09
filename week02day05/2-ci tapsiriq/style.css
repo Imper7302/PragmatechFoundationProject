@@ -108,3 +108,29 @@
 .third_text2{
     font-size: 14px;
 }
+.fourth{
+    border: 2px solid black;
+    width: 800px;
+    height: 205px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-top: 25px;
+    padding-left: 45px;
+}
+.fourth_img1{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 25px;
+    background-image: url(./eskiz/backgraound.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fourth_txt1{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 25px;
+}
