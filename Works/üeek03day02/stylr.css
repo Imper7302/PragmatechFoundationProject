@@ -1,0 +1,45 @@
+#title{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    text-align:center
+    
+}
+.title_left{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.title_left1{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+}
+.title_left2{
+    margin-left: 30px;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+}
+.title_center{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+}
+.title_right{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.title_right1{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+}
+.title_right2{
+    margin-left: 30px;
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+}
