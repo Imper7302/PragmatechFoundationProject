@@ -1,0 +1,44 @@
+.navbar_basliq{
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid wheat;
+}
+.navbar_logo{
+    
+}
+.navbar_nav{
+    
+    display: flex;
+    justify-content: center;
+}
+.navbar_button{
+    
+}
+.navbar_nav ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+.navbar_nav ul {
+    display: flex;
+    margin: 0 25px;
+    padding-top: 15px;
+    
+}
+#navbar{
+    
+    padding: 20px 30px;
+}
+.navbar_button button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 35px
+}
+.navbar_button button:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding: 10px 35px
+}
