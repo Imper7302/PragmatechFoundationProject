@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border-bottom: 2px solid wheat;
+    
 }
 .navbar_logo{
     
@@ -19,6 +19,7 @@
 .navbar_nav ul li{
     list-style: none;
     margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar_nav ul {
     display: flex;
@@ -29,6 +30,7 @@
 #navbar{
     
     padding: 20px 30px;
+    
 }
 .navbar_button button{
     background-color: blue;
@@ -41,4 +43,69 @@
     color: blue;
     border: 2px solid blue;
     padding: 10px 35px
+}
+#news{
+    border-top: 1px solid darkgray;
+}
+.news_container{
+    
+    display: flex;
+    justify-content: end;
+}
+.news_left{
+    
+    width: 450px;
+    padding-top: 80px;
+}
+.news_left complete{
+    border-top: 20px solid blue;
+}
+.complete{
+    width: 200px;
+    background-color: rgb(213, 213, 218);
+    color: blue;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    
+    
+    
+}
+.build{
+    color: rgb(3, 3, 22);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    
+}
+
+.combine{
+    color: rgb(14, 14, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20;
+}
+.mail{
+    
+    margin-top: 40px;
+}
+.news_left input{
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid rgb(62, 62, 124);
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+.news_left button{
+    height: 54px;
+    background-color: rgb(62, 62, 124);;
+    width: 130px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    
 }
