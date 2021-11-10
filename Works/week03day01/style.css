@@ -15,6 +15,7 @@
 }
 .navbar_button{
     
+    
 }
 .navbar_nav ul li{
     list-style: none;
@@ -37,6 +38,7 @@
     color: white;
     border: none;
     padding: 10px 35px
+
 }
 .navbar_button button:hover{
     background-color: white;
@@ -94,7 +96,7 @@
     height: 50px;
     margin: 0px;
     padding: 0px;
-    border: 2px solid rgb(62, 62, 124);
+    border: 1px solid rgb(62, 62, 124);
     border-radius: 2px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
