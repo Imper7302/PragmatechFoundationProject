@@ -1,0 +1,21 @@
+#president{
+    border: 2px solid black;
+}
+.president_header{
+    border: 2px solid green;
+}
+.president_title{
+    border: 2px solid red;
+}
+.president_title_logos{
+    border: 2px solid yellow;
+}
+.president_title_logo_write{
+    border: 2px solid darkblue;
+}
+.president_title_logo_write_gerb{
+    border: 1px solid grey;
+}
+.president_title_logo_write_umumi{
+    border: 1px solid grey;
+}
