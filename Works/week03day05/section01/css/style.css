@@ -1,13 +1,103 @@
-#header{
-    border: 2px solid black;
-    height: 300px;
-    width: 1400px;
-}
 body{
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color: aqua
+    margin: 0px;
 }
-.sign{
-    border: 1px solid red;
+#learn {
+    background-color: rgba(235,235,242,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 0px;
+}
+.learn_container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.learn_container_contant{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.learn_container_contant_box{
+    width: 310px;
+    height: 290px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 30px;    
+}
+.fa-book-open{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2eee9;
+    color: #00af92;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.fa-book-open:hover{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00af92;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.fa-user-friends{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,175,146,0.1);
+    color: #00af91;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.fa-user-friends:hover{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1089ff;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.fa-clock{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5dad7;
+    color: #f15c4c;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.fa-clock:hover{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f15c4c;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.learn_container_contant_box h4{
+    margin-top: 40px;
+    font-size: 24px;
+}
+.learn_container_contant_box span{
+    font-size: 20px;
+    color: grey;
+}
+.learn_container h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 0px;
 }
