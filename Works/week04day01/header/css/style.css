@@ -1,0 +1,50 @@
+/*Taglari sifirlama*/
+body{
+    margin: 0px;
+    background-color: black;
+}
+li{
+    list-style-type: none;
+    margin: 0px; 
+}
+ul{
+    margin: 0px;
+}
+/*Taglari sifirlama*/
+
+/*navigation style start*/
+
+#navigation{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 1200px;
+    margin: 50px auto;
+}
+.navigation_container{
+    
+    width: 1100px;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation_container img{
+    width: 100px;
+    height: 50px;
+}
+.navigation_container_nav{
+    display: flex;
+    align-items: center;
+}
+.navigation_container_nav ul{
+    display: flex;
+    margin-right: 15px;
+    border-right: 1px solid gainsboro;
+}
+.navigation_container_nav ul li{
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+/*navigation style start*/
