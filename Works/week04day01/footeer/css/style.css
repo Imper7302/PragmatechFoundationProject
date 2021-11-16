@@ -23,19 +23,15 @@ h1{
 
 #footer{
     background-color: rgb(39, 39, 44);
-    
     width: 1300px;
     margin: 0px auto;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     margin-top: 23px;
 }
-
-
 .footer_container{
     /*padding-left: 128px;
-    padding-right: 128px;*/
-       
+    padding-right: 128px;*/   
 }
 .footer_container_nav{
     align-items: center;
@@ -44,9 +40,7 @@ h1{
     display: flex;
     justify-content: space-between;
     padding-left: 120px;
-    padding-right: 120px;
-   
-    
+    padding-right: 120px;    
 }
 .footer_container_nav ul{
     display: flex;
@@ -80,4 +74,9 @@ h1{
     height: 100px;
     padding-left: 120px;
     padding-right: 120px;
+}
+.footer_container_copyright span{
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(97, 94, 94);
 }
