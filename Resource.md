@@ -7,7 +7,7 @@ grid-template-columns sütunlar üzrə, grid-row-columns sətirlər üzrə ölç
 justify-content, align-content özəliklərini verə bilərik.
 max-content: content qədər genişlik ya da hündürlük yaradır.
 min-content: Ən geniş söz qədər minimum yer yaradır.
-
+grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));-20 rem araligında maxsimum cox qutu olsun
 
 ### Display-flex
 Display-flexin bir neçə alt xüsusiyyəti var. Elementləri sütunlar və sətirlər üzrə düzmək üçün istifadə olunur. Defaul olaraq sətirlər üzrə bölünür bu zaman "row" dəyərini alır və səhifənin solundan sağa qutular düzülür. Sağından sola düzülüş olması üçün isə row-reverse xüsusiyyətindən istifadə olunur. Sütunlar üzrə bölmək üçün isə "column" xüsusiyyətindən istifadə olunur. oda öz növbəsində iki alt xüsusiyyətə bölünür. Yuxarında aşağı bölmək üçün default column, tərsinə bölmək üçün "column-reverse" istifadə olunur.
