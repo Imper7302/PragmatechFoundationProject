@@ -1,0 +1,51 @@
+/*reset start*/
+body{
+    margin: 0px;
+}
+h5, h2{  /*h5 ile h2 ni bir yerde yaza bilmedim*/
+    margin: 0px;
+}
+/*reset stop*/
+
+/*section style start*/
+section{
+    width: 100%;
+    height: 520px;
+    background-color: #8470f7;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+.container{
+  
+}
+.container_portfolio{
+    text-align: center;
+    margin: 0px auto;
+}
+.container_portfolio h2{
+    margin-top: 8px;
+}
+.container_portfolio span{
+    font-size: 10px;
+}
+.container_boxs{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.boxs_edges{
+}
+.boxs_edges_box{
+    height: 165px;
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.boxs_center{
+    height: 344px;
+    width: 260px;
+    margin: 0px 10px;
+}
+/*section style stop*/
