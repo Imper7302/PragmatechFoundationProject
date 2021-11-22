@@ -1,8 +1,36 @@
 /*reset start*/
-
-
+body, h2{
+    margin: 0px;
+}
 /*reset stop*/
 
 /*section style start*/
+section{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    background-color: #8474f7;
+    padding-top: 50px;
+}
+.container{
+    
+}
+.container_portfolio{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.container_portfolio span{
+    font-size: 12px;
+}
 
+.container_portfolio h2{
+    margin-bottom: 50px;
+}
+.container_boxs{
+    width: 800px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: 0px auto;
+}
 /*section style stop*/
