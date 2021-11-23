@@ -1,0 +1,26 @@
+/*Reset start*/
+body{
+    margin: 0px;
+}
+/*Reset stop*/
+
+/*container style start*/
+#main{
+    border: 1px solid black;
+    
+}
+.container{
+    margin: 0px auto;
+    border: 1px solid blue;
+    width: 1052px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+
+}
+.container_main{
+    width: 250px;
+    height: 440px;
+    border: 1px solid red;
+}
+/*container style stop*/
