@@ -60,11 +60,13 @@ a{
     
 }
 .container_sub_nav_icon{
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     margin-left: 110px;
     position: absolute;
     width: 250px;
     display: none;
+    padding: 0px;
+    text-align: left;
 }
 .container_sub_nav:hover .container_sub_nav_icon{
     display: block;
