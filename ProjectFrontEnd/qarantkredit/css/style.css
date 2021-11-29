@@ -1,0 +1,92 @@
+/* Resert start */
+body, h4, h2, p{
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Reset stop */
+
+/* start header */
+#header{
+    background-color: #10153D;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+.container{
+    border: 1px solid black;
+    width: 1200px;
+    margin: 0px auto;
+}
+nav{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* margin-top: 5px; */
+}
+.nav_navbar{
+    border: 1px solid darkcyan;
+    display: flex;
+    align-items: center;    
+}
+.navbar_list ul{
+    border: 1px solid red;
+    display: flex;
+    
+}
+.navbar_list ul li{
+    margin-right: 35px;
+    
+}
+.nav_contact{
+    border: 1px solid darkorchid;
+    display: flex;
+}
+.contact{
+    margin-right: 30px;
+}
+.card{
+    border: 1px solid darkturquoise;
+    display: flex;
+    
+}
+.card_left{
+    border: 1px solid darkslategrey;
+    width: 600px;
+}
+
+.card_left_top{
+    border: 1px solid darkviolet;
+}
+.card_left_top_sign button{
+    margin-right: 30px;
+}
+.card_left_bottom{
+    display: flex;
+}
+.card_left_bottom_box{
+    border: 1px solid darkred;
+    margin-right: 25px;
+    text-align: center;
+}
+.card_right{
+    border: 1px solid black;
+    width: 600px;
+    
+}
+.card_right img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* start stop */
