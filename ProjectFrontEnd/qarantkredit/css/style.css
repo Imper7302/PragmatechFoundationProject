@@ -13,19 +13,21 @@ a{
 
 /* Reset stop */
 
-/* start header */
+/* start nav */
 #header{
     background-color: #10153D;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-top: 30px;
+    padding-bottom: 50px;
 
 }
 .container{
-    border: 1px solid black;
     width: 1200px;
     margin: 0px auto;
 }
+
+
 nav{
     /* border: 1px solid red; */
     display: flex;
@@ -68,12 +70,17 @@ nav{
     /* border: 1px solid darkorchid; */
     display: flex;
     align-items: center;
-    margin-right: 110px;
+    
+    padding-right: 30px;
 
     
 }
 .contact{
-    margin-right: 30px;
+    
+}
+.contact:hover a{
+    color: #5846E0;
+    transition: all .5s ease;
 }
 .nav_contact button{
     width: 110px;
@@ -91,39 +98,110 @@ nav{
     background-color: #5846E0;
     transition: all .5s ease;
 }
+/* stop nav*/
+
+
+/* start card style */
 .card{
-    border: 1px solid darkturquoise;
+    /* border: 1px solid darkturquoise; */
     display: flex;
     margin-top: 130px;
+    
 }
+.card_left_top_write h1{
+    font-size: 55px;
+    line-height: 70px;
+    margin-top: 0px;
+}
+.card_left_top_write p{
+    color: #FFFFFF8A;
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin: 0px;
+}
+
 .card_left{
-    border: 1px solid darkslategrey;
+    /* border: 1px solid darkslategrey; */
     width: 600px;
 }
 
 .card_left_top{
-    border: 1px solid darkviolet;
+    /* border: 1px solid darkviolet; */
 }
 .card_left_top_sign button{
     margin-right: 30px;
+    height: 55px;
+    width: 135px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #5846E0;
+    border: none;
+}
+.card_left_top_sign button:hover{
+    background-color: #10153D;
+    border: 1px solid #5846E0;
+    transition: all .5s ease;
+}
+    
+.card_left_top_sign a:hover{
+    color: #5846E0;
+    transition: all .5s ease;
 }
 .card_left_bottom{
     display: flex;
+    margin-top: 40px;
 }
 .card_left_bottom_box{
-    border: 1px solid darkred;
+    border: 2px solid #3c2fa3;
+    border-radius: 2px;
+    width: 175px;
+    height: 160px;
     margin-right: 25px;
     text-align: center;
 }
+.card_left_bottom_box:hover{
+    border: 2px solid #5846E0;
+}
 .card_right{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 600px;
-    
+    position: relative;
 }
 .card_right img{
-    width: 100%;
+    width: 120%;
     object-fit: cover;
 }
+.fa-credit-card{
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    size: 7x;
+    font-size: 50px;
+    border: 1px solid #5846E036;
+    padding: 20px;
+    background-color: #FFFFFF1F;
+}
+.fa-dollar-sign{
+    position: absolute;
+    font-size: 50px;
+    border: 1px solid #5846E036;
+    padding: 20px 35px;
+    top: 450px;
+    right: 410px;
+    background-color: #FFFFFF1F;
+}
 
+.fa-chart-line{
+    position: absolute;
+    font-size: 50px;
+    border: 1px solid #5846E036;
+    padding: 20px;
+    right: 0px;
+    top: 145px;
+    background-color: #FFFFFF1F;
+}   
+    
+    
 
-/* start stop */
+/* stop card style */
+
