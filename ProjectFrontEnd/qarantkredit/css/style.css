@@ -457,7 +457,9 @@ nav{
 .section_seven_container_item_box:hover h4{
     color: #5846E0;
     cursor: pointer;
+    transition: all .5s ease;
 }
+
 .section_seven_container_item_box_img{
    
 }
@@ -478,5 +480,73 @@ nav{
 }
 .section_seven_container_item_box_write_span:hover a{
     color: black;
+    transition: all .5s ease;
 }
-/* section_seven start */
+/* section_seven stop */
+
+/* section_eight start */
+
+#section_eight{
+    margin-top: 200px;
+}
+.section_eight_container{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    background-color: #10153d;
+    
+}
+.section_eight_container_img{
+    width: 500px;
+    position: relative;
+}
+.section_eight_container_img img{
+    height: 435px;
+    position:absolute;
+    object-fit: cover;
+    right: -105px;
+    top: -45px;
+}
+.section_eight_container_write{
+    width: 600px;
+    padding: 80px;
+    padding-left: 170px;
+}
+.section_eight_container_write h2{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section_eight_container_write_sign{
+    margin-top: 30px;
+}
+.section_eight_container_write span{
+    color: #9599BB;
+    font-size: 17px;
+}
+.section_eight_container_write_sign button{
+    margin-right: 30px;
+    height: 55px;
+    width: 135px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #5846E0;
+    border: none;
+    cursor: pointer;
+}
+.section_eight_container_write_sign button:hover{
+    background-color: #10153D;
+    border: 1px solid #5846E0;
+    transition: all .5s ease;
+}
+.section_eight_container_write_sign a{
+    color: #FFFFFF;
+}   
+.section_eight_container_write_sign a:hover{
+    color: #5846E0;
+    transition: all .5s ease;
+}
+
+/* section_eight stop */
+
