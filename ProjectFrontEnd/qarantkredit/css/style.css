@@ -490,7 +490,7 @@ nav{
     position: relative;
 }
 .section_eight_container_img img{
-    height: 435px;
+    height: 495px;
     position:absolute;
     object-fit: cover;
     right: -105px;
@@ -561,10 +561,12 @@ footer{
     font-size: 22px;
     line-height: 52px;
 }
-.footer_container_item p{
+.footer_container_item_logo_p{
     margin: 20px 0px;
     color: #9599BB;
     font-size: 13px;
+    width: 200px;
+    word-break: break-all;
 }
 .footer_container_item_logo img{
     width: 100%;
