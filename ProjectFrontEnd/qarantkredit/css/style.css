@@ -102,7 +102,6 @@ nav{
 .card{
     display: flex;
     margin-top: 130px;
-    
 }
 .card_left_top_write h1{
     font-size: 55px;
@@ -117,8 +116,6 @@ nav{
 }
 .card_left{
     width: 600px;
-}
-.card_left_top{
 }
 .card_left_top_sign button{
     margin-right: 30px;
@@ -200,8 +197,6 @@ nav{
 
 
 /*section_one start*/
-#section_one{
-}
 .section_one_container{  
     width: 1200px;
     margin: 0px auto;
@@ -291,9 +286,6 @@ nav{
     width: 550px;
     padding-top: 90px;
     padding-left: 70px;
-}
-.section_two_contanier_right_write{
-    
 }
 .section_two_contanier_right_write h2{
     font-size: 40px;
@@ -450,8 +442,6 @@ nav{
     cursor: pointer;
     transition: all .5s ease;
 }
-.section_seven_container_item_box_img{
-}
 .section_seven_container_item_box_img_a img{
     width: 100%;
     object-fit: cover;
@@ -541,15 +531,11 @@ nav{
 
 
 /* footer start */
-footer{
-}
 .footer_container{
     width: 1200px;
     margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.footer_container_item{
 }
 .footer_container_item_logo{
     width: 170px;
