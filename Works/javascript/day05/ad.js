@@ -25,21 +25,122 @@
 // Əgər username və ya password bos buraxılıbsa ekrana alert vasitəsi ilə 'Deyerler bos ola bilmez' yazısı çıxsın
 // Əgər username 'admin' ve password '123456'-dirsa ekrana alert vasitesi ile 'Tebrikler siz sisteme daxil oldugunuz'
 // Daxil edilen deyerlerden her hansi biri duz deyilse ona uygun mesaj cixsin. Meselen username duz deyil
+// username=prompt("Adınızı daxil edin: ")
+// password=prompt("Parolu daxil edin: ")
+// if (username=="admin" && password=="12345"){
+//     alert("Tebrikler siz sisteme daxil oldunuz")
+// }
+// else if (username=="" || password==""){
+//     alert("Deyerler bos ola bilmez")
+// }
+// else if (username!=="admin" && password=="12345"){
+//     alert("Adı səhv daxil etmisiz!!!")
+// }
+// else if (username=="admin" && password!="12345"){
+//     alert("Parolu səhv daxil etmisiz!!!")
+// }
+// else {
+//     alert("Ad ve parol sehfdir!!!")
+// }
 
-username=prompt("Adınızı daxil edin: ")
-password=prompt("Parolu daxil edin: ")
-if (username=="admin" && password=="12345"){
-    alert("Tebrikler siz sisteme daxil oldunuz")
+
+
+// 5)while və ya for istifadə edərək aşağıdakı tapşırıqları yazın
+// 1-1000 arasındakı ədədləri ekrana çap edin
+// 1-1000 arasındakı tək ədədləri ekrana çap edin
+// 1-1000 3-ə bölünən ədədləri ekrana çap edin
+// 1-1000 arasındakı ədədlərin cəmini hesablayıb ekrana çap edin
+
+// 1-1000 arasındakı ədədləri ekrana çap edin
+// 1-ci variant
+// for(let i=1; i<=1000; i++){
+//     console.log(i)
+// }
+// 2-ci variant
+// let a=1
+// while (a<=1000){
+//     console.log(a)
+//     a++
+// }
+
+
+// 1-1000 arasındakı tək ədədləri ekrana çap edin
+// 1-ci variant
+// for(let i=1; i<=1000; i+=2){
+//     console.log(i)}
+// 2-ci variant
+// for (let i=1; i<1000; i++){
+//     if(i%2!=0){
+//         console.log(i)
+//     }
+// }
+// 3-cu variant
+// let i=1;
+// while(i<=1000){
+//     console.log(i)
+//     i+=2
+// }
+// 4-cu variant
+// let i=1;
+// while(i<=1000){
+//     if(i%2!=0){
+//         console.log(i)
+//     }
+//     i++
+// }
+
+
+// 1-1000 3-ə bölünən ədədləri ekrana çap edin
+//1-ci variant
+// for(let i=0; i<=1000; i+=3){
+//     console.log(i)
+// }
+// 2-ci variant
+// for(let i=1; i<=1000; i++){
+//     if(i%3==0){
+//         console.log(i)
+//     }
+// }
+// 3-cu variant
+// let i=0;
+// while(i<=1000){
+//     console.log(i)
+//     i+=3
+// }
+// 4-cu variant
+// let i=0;
+// while(i<=1000){
+//     if(i%3==0){
+//         console.log(i)
+//     }
+//     i++
+// }
+
+
+
+// 1-1000 arasındakı ədədlərin cəmini hesablayıb ekrana çap edin
+// 1-ci variant
+// let a=0
+// for(let i=0; i<=1000; i++){
+//     a+=i  
+// }
+// console.log(a)
+// 2-ci variant
+// let i=0;
+// let a=0
+// while(i<=1000){
+//     a+=i
+//     i++
+// }
+// console.log(a)
+// if(44){
+//     console.log('duzdu---r')}
+// else{
+//     console.log('sehvdir')}
+
+if(4){
+    console.log("salam")
 }
-else if (username=="" || password==""){
-    alert("Deyerler bos ola bilmez")
-}
-else if (username!=="admin" && password=="12345"){
-    alert("Adı səhv daxil etmisiz!!!")
-}
-else if (username=="admin" && password!="12345"){
-    alert("Parolu səhv daxil etmisiz!!!")
-}
-else {
-    alert("Ad ve parol sehfdir!!!")
+else{
+    console.log("xeyir")
 }
