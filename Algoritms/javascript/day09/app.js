@@ -5,7 +5,6 @@ function kvadrat (a){
 function buyukherif(a){
     return(a.toUpperCase())
 }
-
 function soz_sayi(a){
     let cem=0
     for(let i=0; i<a.length; i++){
@@ -34,8 +33,18 @@ function samit_say(a){
     }
     return(samit_cem)
 }
-
-
+let ikireqem_ededler=[]
+function ikireqemli_eded(a){
+    for(let i=0; i<a.length; i++){
+        if(a[i]>9 && a[i]<100){
+            ikireqem_ededler.push(a[i])
+        }
+    }
+    return(ikireqem_ededler)
+}
+function maas_faiz(a){
+    return(a*0.82)
+}
 
 
 // 1)Parametr olaraq ədəd qəbul edib o ədədin kvadratını return edən method yazın
@@ -60,3 +69,27 @@ function samit_say(a){
 
 
 // 5)parametr olaraq array qəbul edib o arrayın daxilindəki ikirəqəmli ədədləri ayrı bir arraya toplayaraq yeni arrayı return edən method yazın.
+// let a=[]
+// while(true){
+//     let eded=prompt("Ededi daxil edin")
+//     if(eded){
+//         a.push(eded)
+//     }
+//     else{
+//         break
+//     }
+// }
+// ikireqemli_eded(a)
+// alert(ikireqem_ededler)
+
+
+// 6)parametr olaraq maas və vergi faizi qəbul edərək yekun maaş məbləğını return edən method yazın
+// let maas=prompt('Maasinizi daxil edin')
+// alert(`Sizin maasiniz--${maas_faiz(maas)}`)
+
+
+// 7)Daxil edilən argumentin tipinə görə fərqli nəticələr verən method yazın
+//   argument obyektdirsə onun daxilində necə propertisinin olduğunu return etsin
+//   argument ədəddirsə neçə rəqəmli ədəd olduğunu return etsin
+//   argument stringdirsə o stringin daxilindəki hərflərdən istifadə edərək təsadufi 5 söz istehsal edib , istehsal edilən sözləri array    olaraq return etsin
+
