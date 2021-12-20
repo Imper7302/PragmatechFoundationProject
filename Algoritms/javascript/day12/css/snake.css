@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snake{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.countrol button{
+    cursor: pointer;
+}

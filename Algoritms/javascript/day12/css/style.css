@@ -1,0 +1,16 @@
+.yarat{
+    border: 1px solid black;
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: coral;
+}
+.new_box{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: chartreuse;
+    display: inline-block;
+    margin: 10px;
