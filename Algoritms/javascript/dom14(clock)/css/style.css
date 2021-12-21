@@ -1,0 +1,126 @@
+h3{
+    padding: 0px;
+}
+
+#clock{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+}
+.clock_container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock_container_left{
+    border: 1px solid black;
+    width: 600px;
+    padding: 20px;
+}
+.clock_container_left_name{
+    /* border: 1px solid black; */
+}
+.clock_container_left_name input{
+    height: 30px;
+}
+.clock_container_left_birth{
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* margin: 50px 0px; */
+    
+}
+.left_birth_elemnt_h2{
+    display: block;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.left_birth_elemnts{
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.left_birth_elemnt{
+    /* border: 1px solid yellow; */
+    margin-right: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.left_birth_elemnt input{
+    width: 50px;
+}
+.clock_container_left_age{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.left_age_elemnt{
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    padding: 5px;
+    color: rgb(154, 157, 160);
+}
+.clock_container_left_note{
+    /* border: 1px solid black; */
+    height: 100px;
+    word-break: keep-all;
+    text-indent: 20px;
+    padding-right: 20px;
+}
+
+.clock_container_rigt{
+    /* border: 1px solid black; */
+    width: 400px;
+    position: relative;
+    /* margin: 0px auto; */
+}
+.clock_container_rigt_img{
+    margin: 0px auto;
+    margin-left: 80px;
+    position: relative;
+}
+.test1{
+    width: 300px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 111px;
+    left: -35px;
+}
+.test2{
+    width: 300px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: -38px;
+    transform: rotate(90deg);
+}
+.clock_second{
+    width: 106px;
+    height: 2px;
+    background-color: yellow;
+    position: absolute;
+    top: 111px;
+    left: 86px;
+    transform-origin: right center;
+    transform: rotate(238deg);
+}
+.clock_minute{
+    width: 96px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 111px;
+    left: 96px;
+    transform-origin: right center;
+    transform: rotate(238deg);
+}
+.clock_hour{
+    width: 86px;
+    height: 2px;
+    background-color: rgb(9, 110, 141);
+    position: absolute;
+    top: 111px;
+    left: 106px;
+    transform-origin: right center;
+    transform: rotate(238deg);
+}
