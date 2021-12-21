@@ -15,3 +15,7 @@ function clock(){
     hour_rotate+=1/120
 }
 setInterval(clock, 1000)
+
+
+
+
