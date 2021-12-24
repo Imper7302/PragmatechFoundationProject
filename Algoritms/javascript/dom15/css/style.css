@@ -1,0 +1,24 @@
+#drag{
+    padding: 100px;
+    display: flex;
+}
+.kenarliq_1{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.kenarliq_2{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed green;
+    margin-left: 15px;
+}
